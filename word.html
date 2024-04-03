@@ -1,0 +1,195 @@
+<DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Word</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+  </head>
+  <body>
+    <section class="class_1" >
+      <header class="class_2" >
+        <div class="class_3" >
+          <img src="bg/logo3.png" class="class_4" >
+        </div>
+        <div  class="item_class_0 class_5">
+          <div  class="item_class_1 class_6">
+            <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" >
+              <path d="m22 16.75c0-.414-.336-.75-.75-.75h-18.5c-.414 0-.75.336-.75.75s.336.75.75.75h18.5c.414 0 .75-.336.75-.75zm0-5c0-.414-.336-.75-.75-.75h-18.5c-.414 0-.75.336-.75.75s.336.75.75.75h18.5c.414 0 .75-.336.75-.75zm0-5c0-.414-.336-.75-.75-.75h-18.5c-.414 0-.75.336-.75.75s.336.75.75.75h18.5c.414 0 .75-.336.75-.75z" fill-rule="nonzero" >
+              </path>
+            </svg>
+          </div>
+          <div  class="item_class_2 class_7">
+            <a href="index.html" class="class_8"  >
+              Home
+            </a>
+            <a href="about.html" class="class_8"  >
+              About us
+            </a>
+            <a href="dialects.html" class="class_8"  >
+              Dialects
+            </a>
+            <a href="forum.html" class="class_8"  >
+              Forum
+            </a>
+          </div>
+        </div>
+        <div class="class_9"  >
+          <img src="assets/images/user.jpg" class="class_10" >
+          Hi, User
+        </div>
+      </header>
+      <div class="res">
+      <h1>babayē</h1>
+      <!-- Sound Icon -->
+      <div class="sound-icon" onclick="toggleSound()">
+        <ion-icon name="volume-high-outline" ></ion-icon>
+      </div>
+      <div style="width: 100%; display: flex; align-items: center;">
+        <h3 style="margin-right: 10px;">Dialect:</h3>
+        <h2>Rinconada</h2>
+      </div>
+      </div>
+
+            <div class="noun">
+
+            </div>
+
+          <div class="antonym">
+              <h5 style="color: rgb(98, 96, 96);">antonym</h5>
+              <h4 style="color: #B40023;">lalakē</h4>
+          </div>
+
+          <div class="pronounce">
+            <h3 style="color: rgb(98, 96, 96);">Pronounciation</h3>
+            <button class="accordion">The pronunciation of "babayi" in Rinconada Bikol is approximately "ba-bah-yee," 
+              with stress on the second syllable. Here's a breakdown of the pronunciation:
+              <img class="arrow" src="bg/down-arrow.png"> <!-- PNG image for arrow -->
+            </button>
+            <div class="panel">
+              <ul>
+                <li>"Ba" sounds like "bah" with a short "a" sound.</li>
+                <li>"Bay" sounds like "bahy," with a long "a" sound and a short "i" sound.</li>
+                <li>"Yi" sounds like "yee," with a long "i" sound.</li>
+              </ul>
+              <p>So, altogether, it's "ba-bah-yee."</p>
+            </div>
+          </div>
+            
+
+          <div class="example">
+              <h3 style="color: rgb(98, 96, 96);">examples</h3>
+              <button class="accordion">langgayun na babayē
+                <img class="arrow" src="bg/down-arrow.png"> <!-- PNG image for arrow -->
+              </button>
+              <div class="panel">
+                <p><b>Tagalog:</b></Tagalog>Magandang babae.</p><br>
+                <p><b>English:</b></Tagalog>Beautiful woman.</p>
+              </div>
+              
+              <button class="accordion">nag laba su babayē kusubago
+                <img class="arrow" src="bg/down-arrow.png"> <!-- PNG image for arrow -->
+              </button>
+              <div class="panel">
+                <p><b>Tagalog:</b></Tagalog>naglaba yung babae kanina.</p><br>
+                <p><b>English:</b></Tagalog>The woman did the laundry earlier.</p>
+              </div>
+              
+          </div>
+
+          <!-- Audio element -->
+          <audio id="audioPlayer" controls>
+              <source src="sound/ElevenLabs_2024-03-26T15_11_34_Callum.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+          </audio>
+
+          <div class="meaning">
+              <h4>Tagalog Meaning</h4>
+              <p>Ang salitang "babae" ay tumutukoy sa kasarian ng tao na karaniwang tinutukoy bilang "female" sa Ingles. 
+                  </p>
+          </div>
+
+          <div class="meaning">
+              <h4>English Meaning</h4>
+              <p>The term "woman" refers to an adult human female. It is typically used to describe individuals
+                  who have reached maturity and belong to the female gender.</p>
+          </div>
+          <footer class="footer">
+            <div class="waves">
+              <div class="wave" id="wave1"></div>
+              <div class="wave" id="wave2"></div>
+              <div class="wave" id="wave3"></div>
+              <div class="wave" id="wave4"></div>
+            </div>
+            <ul class="social-icon">
+              <li class="social-icon__item"><a class="social-icon__link" href="#">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a></li>
+              <li class="social-icon__item"><a class="social-icon__link" href="#">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a></li>
+              <li class="social-icon__item"><a class="social-icon__link" href="#">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a></li>
+              <li class="social-icon__item"><a class="social-icon__link" href="#">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a></li>
+            </ul>
+            <ul class="f-menu">
+              <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+              <li class="menu__item"><a class="menu__link" href="about.html">About</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">Dialects</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">Forum</a></li>
+          
+            </ul>
+            <p>2024 Albay Dialects | All Rights Reserved</p>
+          </footer>
+          <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+          <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+          <script>
+            function menuOnClick() {
+            document.getElementById("menu-bar").classList.toggle("change");
+            document.getElementById("nav").classList.toggle("change");
+            document.getElementById("menu-bg").classList.toggle("change-bg");
+          }
+      
+          function toggleSound() {
+          var audio = document.getElementById("audioPlayer");
+          var soundIcon = document.getElementById("soundIcon");
+          
+          if (audio.paused) {
+              audio.play();
+              soundIcon.setAttribute("name", "volume-high-outline");
+          } else {
+              audio.pause();
+              soundIcon.setAttribute("name", "volume-high-sharp");
+          }
+      }
+      
+       // Get all elements with class="accordion" and loop through them
+       var accordions = document.getElementsByClassName("accordion");
+        for (var i = 0; i < accordions.length; i++) {
+          // Add click event listener to each accordion
+          accordions[i].addEventListener("click", function() {
+            // Toggle active class to highlight clicked accordion button
+            this.classList.toggle("active");
+            
+            // Toggle the arrow rotation
+            var arrow = this.querySelector('.arrow');
+            arrow.classList.toggle('rotate');
+      
+            // Toggle the panel visibility using nextElementSibling property
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+        </script>
+        </section>
+                    
+        </body>
+        </html>
